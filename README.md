@@ -6,7 +6,8 @@ A responsive, multi-page static website built for the **MANTRA 2026 Summer Schoo
 
 ## 🔗 Live Links
 - **GitHub Repository:** https://github.com/poornachandra3217-glitch/mantra-edu-site
-- **Netlify Live Site:** 
+- 
+- **Netlify Live Site:** https://matra-educationalsite.netlify.app/
 
 ## 📁 Project Structure
 ```
@@ -38,12 +39,6 @@ mantra-edu-site/
 - Google Fonts: Space Grotesk, Lora, JetBrains Mono
 - No build tools required — it's a static site
 
-## 🚀 Deploying to Netlify
-1. Push this folder to a public GitHub repository.
-2. Log in to [Netlify](https://www.netlify.com) and choose **Add new site → Import an existing project**.
-3. Connect your GitHub repository.
-4. Leave the build command empty and set the publish directory to the project root (`/`).
-5. Deploy — Netlify will give you a live `.netlify.app` link.
 
 ## 📄 Pages Overview
 | Page | Purpose |
@@ -54,5 +49,4 @@ mantra-edu-site/
 | `gallery.html` | Photos/illustrations from campus life with captions & alt text |
 | `contact.html` | Contact details and a working registration form with validation |
 
----
-Submitted for MANTRA 2026 Summer School — Assignment 1.
+
