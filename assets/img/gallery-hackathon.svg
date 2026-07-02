@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of the overnight hackathon event">
+<rect width="400" height="300" fill="#1B1F3B"/>
+<circle cx="330" cy="60" r="26" fill="#E8A33D"/>
+<rect x="60" y="150" width="90" height="70" rx="6" fill="#2F6F63"/>
+<rect x="170" y="130" width="90" height="90" rx="6" fill="#E8A33D"/>
+<rect x="280" y="160" width="70" height="60" rx="6" fill="#F7F3E9"/>
+<rect x="0" y="220" width="400" height="80" fill="#0f1229"/>
+</svg>

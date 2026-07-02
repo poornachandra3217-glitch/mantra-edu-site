@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of new student orientation day">
+<rect width="400" height="300" fill="#EFE8D8"/>
+<rect x="50" y="180" width="300" height="14" fill="#33312E"/>
+<circle cx="120" cy="150" r="22" fill="#2F6F63"/>
+<rect x="98" y="176" width="44" height="4" fill="#2F6F63"/>
+<circle cx="200" cy="140" r="22" fill="#E8A33D"/>
+<rect x="178" y="166" width="44" height="4" fill="#E8A33D"/>
+<circle cx="280" cy="150" r="22" fill="#2F6F63"/>
+<rect x="258" y="176" width="44" height="4" fill="#2F6F63"/>
+<polygon points="200,60 250,95 150,95" fill="#1B1F3B"/>
+</svg>

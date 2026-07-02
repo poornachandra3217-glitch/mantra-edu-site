@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Illustration of student campus life">
+<rect width="400" height="300" fill="#EFE8D8"/>
+<rect x="0" y="200" width="400" height="100" fill="#2F6F63"/>
+<polygon points="80,200 130,120 180,200" fill="#1B1F3B"/>
+<polygon points="220,200 280,100 340,200" fill="#E8A33D"/>
+<circle cx="330" cy="60" r="24" fill="#F7F3E9"/>
+</svg>
