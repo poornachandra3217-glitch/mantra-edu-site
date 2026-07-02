@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register | Mantra Learning Academy</title>
+<meta name="description" content="Register for Mantra Learning Academy's Summer 2026 courses. Find contact details, office hours, and a simple registration form to reserve your seat.">
+<meta name="keywords" content="Mantra registration, student registration form, summer school contact, admissions">
+<meta name="author" content="Mantra Learning Academy">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Lora:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="logo">MANTRA<span>.</span>edu</a>
+    <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav aria-label="Main navigation">
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" aria-current="page">Register</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" style="padding: 52px 0 60px;">
+    <div class="container">
+      <p class="eyebrow">// Register</p>
+      <h1>Reserve your <span class="mark">seat for summer.</span></h1>
+      <p class="lede">Fill in the form below and our admissions team will confirm your seat within two working days.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid cols-2">
+
+      <div>
+        <h2>Registration Form</h2>
+        <form id="registration-form" novalidate>
+
+          <div class="field">
+            <label for="reg-name">Full Name</label>
+            <input type="text" id="reg-name" name="name" placeholder="e.g. Ananya Sharma" autocomplete="name">
+            <p class="error-msg">Please enter your full name.</p>
+          </div>
+
+          <div class="field">
+            <label for="reg-email">Email Address</label>
+            <input type="email" id="reg-email" name="email" placeholder="e.g. ananya@example.com" autocomplete="email">
+            <p class="error-msg">Please enter a valid email address.</p>
+          </div>
+
+          <div class="field">
+            <label for="reg-phone">Phone Number</label>
+            <input type="tel" id="reg-phone" name="phone" placeholder="e.g. +91 90000 00000" autocomplete="tel">
+            <p class="error-msg">Please enter a valid phone number.</p>
+          </div>
+
+          <div class="field">
+            <label for="reg-course">Course of Interest</label>
+            <select id="reg-course" name="course">
+              <option value="">Select a course</option>
+              <option value="frontend">Frontend Web Development</option>
+              <option value="ui-design">Responsive UI Design</option>
+              <option value="javascript">JavaScript Interactivity</option>
+              <option value="seo">SEO &amp; Content Basics</option>
+              <option value="git-netlify">Git, GitHub &amp; Netlify</option>
+            </select>
+            <p class="error-msg">Please select a course.</p>
+          </div>
+
+          <div class="field">
+            <label for="reg-message">Message / Questions</label>
+            <textarea id="reg-message" name="message" placeholder="Tell us a little about your goals for the summer"></textarea>
+            <p class="error-msg">Please share a short message so we can help you better.</p>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit Registration</button>
+          <div id="form-status" class="form-status" role="status"></div>
+        </form>
+      </div>
+
+      <div>
+        <h2>Visit or Reach Us</h2>
+        <ul class="info-list">
+          <li><span class="ic">Address</span> — Mantra Learning Academy, SAI UNIVERSITY, Chennai, Tamil Nadu, India</li>
+          <li><span class="ic">Email</span> — admissions@mantraacademy.example</li>
+          <li><span class="ic">Phone</span> — +91 987654321</li>
+          <li><span class="ic">Office Hours</span> — Monday to Saturday, 9:00 AM – 6:00 PM IST</li>
+        </ul>
+
+        <h3>Before You Register</h3>
+        <ul style="list-style: disc; padding-left: 20px;">
+          <li>Seats are confirmed on a first-come, first-served basis.</li>
+          <li>Course fee details are shared after your seat is confirmed.</li>
+          <li>Laptop with a modern browser is required for all courses.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Mantra Learning Academy</h4>
+        <p>A summer school helping students turn curiosity into working websites, apps and skills.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Register</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Chennai, Tamil Nadu, India</li>
+          <li>admissions@mantraacademy.example</li>
+          <li>+91 987654321</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Mantra Learning Academy. All rights reserved.</span>
+      <span>Built for MANTRA 2026 Summer School Assignment</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
