@@ -5,7 +5,7 @@ A responsive, multi-page static website built for the **MANTRA 2026 Summer Schoo
 **Selected Topic:** Educational Website
 
 ## 🔗 Live Links
-- **GitHub Repository:** 
+- **GitHub Repository:** https://github.com/poornachandra3217-glitch/mantra-edu-site
 - **Netlify Live Site:** 
 
 ## 📁 Project Structure
